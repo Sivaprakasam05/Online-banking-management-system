@@ -1,0 +1,86 @@
+.dashboard-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-appbar {
+  background: linear-gradient(90deg, #1976d2, #0d47a1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.custom-appbar .MuiTypography-h6 {
+  font-weight: 600;
+}
+
+.custom-drawer {
+  background-color: #0015ff;
+  color: white;
+}
+.custom-drawer .MuiListItem-root {
+  border-radius: 8px;
+  margin: 5px 10px;
+  transition: all 0.3s ease;
+}
+.custom-drawer .MuiListItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-content {
+  background-color: #f5f7fa;
+  padding: 24px;
+}
+.main-heading {
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.custom-card {
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.custom-card h6 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+.transaction-list li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.transaction-list li:last-child {
+  border-bottom: none;
+}
+
+.custom-btn {
+  color: white;
+  font-weight: 600;
+  text-transform: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+.custom-btn:hover {
+  background: linear-gradient(45deg, #000000);
+  color: white;
+}
+
+.MuiDialog-paper {
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.MuiAlert-standardSuccess {
+  background-color: #2e7d32 !important;
+}
+.MuiAlert-standardError {
+  background-color: #c62828 !important;
+}
+.MuiAlert-standardWarning {
+  background-color: #ed6c02 !important;
+}
